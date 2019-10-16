@@ -43,7 +43,8 @@ export default {
   .btnDownload {
     float: right;
     font-size: 24px;
-    border-width: 56px;
+    border-width: 0;
+    height: 56px;
     line-height: 56px;
     min-width: 120px;
     padding: 0;
