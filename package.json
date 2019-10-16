@@ -48,6 +48,10 @@
       "window": false
     },
     "rules": {
+      "linebreak-style": [
+        "error",
+        "window"
+      ],
       "node/no-extraneous-import": "error",
       "node/no-missing-import": "error",
       "node/no-unpublished-import": "error",
