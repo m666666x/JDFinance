@@ -3,22 +3,20 @@
     <div :class="$style.header">
         <span :class="$style.left">
             <em>注册</em>&nbsp;|&nbsp;<em>登录</em>
-        </span><btn :class="$style.btnDownload">
+        </span>
+        <btn :class="$style.btnDownload">
             APP下载
         </btn>
     </div>
 </template>
 
 <script>
-import bth from "../core/btn.vue"
+import btn from "../core/btn.vue"
 export default {
-    components: { bth },
-    data() {
-        return {
-        }
-    },
+  components: {
+    btn,
+  },
 }
-
 </script>
 <style lang='scss' module>
 .header {
@@ -30,7 +28,10 @@ export default {
   top: 0px;
   left: 0px;
   right: 0px;
-  background: #fff url(../../images/bgimage.gif) center center no-repeat;
+  // background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center
+  //   center no-repeat;
+
+  background: #fff url("../../images/jr-logo.png") center center no-repeat;
   background-size: auto 50%;
   z-index: 100;
   .left {

@@ -7,18 +7,17 @@
 
 <script>
 export default {
-    components: {},
-    props: {
-        cname: {
-            type: String,
-            default: "",
-        },
+  props: {
+    cname: {
+      type: String,
+      default: "",
     },
-    data() {
-        return {
-            btnClass: "btn",
-        }
-    },
+  },
+  data () {
+    return {
+      btnClass: "btn",
+    }
+  },
 }
 
 </script>
