@@ -7,7 +7,7 @@
           <img :src="item.src" alt="">
         </router-link>
       </swiper-slide>
-      <div class="swiper-pagination" v-if="options.pagination"/>
+      <div class="swiper-pagination" v-if="options.pagination" slot="pagination"/>
     </swiper>
   </section>
 </template>
