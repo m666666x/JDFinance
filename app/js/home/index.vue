@@ -1,13 +1,13 @@
 <template lang="html">
-    <div>
-      <Heador/>
-    </div>
+  <div>
+    <Heador/>
+  </div>
 </template>
 
-  <script>
-import Heador from "../public/header.vue"
+<script>
+import Heador from '../public/header.vue'
 export default {
-  components: { Heador, },
+  components: { Heador }
 }
 </script>
- 
+

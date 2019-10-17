@@ -198,9 +198,6 @@
           "max": 1
         }
       ],
-      "no-param-reassign": {
-        "props": false
-      },
       "no-native-reassign": 2,
       "no-negated-in-lhs": 2,
       "no-new-object": 2,
