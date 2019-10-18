@@ -1,9 +1,9 @@
 <!--  -->
 <template lang="html">
   <section :class="cname">
-    <swiper :options="options" :not-next-click="notNextClick">
+    <swiper :options="options" :not-next-click="options.notNextClick">
       <swiperSlide v-for="item in items" :key="item.href">
-        <router-link :to="{name : item.href}">
+        <router-link :to="{name: item.href}">
           <img :src="item.src" alt="">
         </router-link>
       </swiperSlide>
